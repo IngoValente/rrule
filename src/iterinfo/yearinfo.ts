@@ -11,7 +11,7 @@ import {
   MDAY366MASK,
   NMDAY366MASK,
   M366RANGE,
-} from '../masks'
+} from '../masks.js'
 
 export interface YearInfo {
   yearlen: 365 | 366
