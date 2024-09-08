@@ -1,10 +1,10 @@
-import { notEmpty, repeat, range, isPresent } from '../helpers';
-import { Frequency } from '../types';
+import { notEmpty, repeat, range, isPresent } from '../helpers.js';
+import { Frequency } from '../types.js';
 import { rebuildYear } from './yearinfo.js';
 import { rebuildMonth } from './monthinfo.js';
 import { easter } from './easter.js';
-import { Time } from '../datetime';
-import { datetime, sort, toOrdinal } from '../dateutil';
+import { Time } from '../datetime.js';
+import { datetime, sort, toOrdinal } from '../dateutil.js';
 // =============================================================================
 // Iterinfo
 // =============================================================================

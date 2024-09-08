@@ -1,6 +1,6 @@
 import { __assign } from "tslib";
-import { datetime, getWeekday, isLeapYear, toOrdinal } from '../dateutil';
-import { empty, repeat, pymod, includes } from '../helpers';
+import { datetime, getWeekday, isLeapYear, toOrdinal } from '../dateutil.js';
+import { empty, repeat, pymod, includes } from '../helpers.js';
 import { M365MASK, MDAY365MASK, NMDAY365MASK, WDAYMASK, M365RANGE, M366MASK, MDAY366MASK, NMDAY366MASK, M366RANGE, } from '../masks';
 export function rebuildYear(year, options) {
     var firstyday = datetime(year, 1, 1);

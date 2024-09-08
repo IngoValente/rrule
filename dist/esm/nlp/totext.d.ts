@@ -1,7 +1,7 @@
 import { Language } from './i18n.js';
-import { RRule } from '../rrule';
-import { ByWeekday } from '../types';
-import { Weekday } from '../weekday';
+import { RRule } from '../rrule.js';
+import { ByWeekday } from '../types.js';
+import { Weekday } from '../weekday.js';
 export type GetText = (id: string | number | Weekday) => string;
 export type DateFormatter = (year: number, month: string, day: number) => string;
 /**

@@ -1,7 +1,7 @@
-import { ParsedOptions, Frequency } from '../types';
+import { ParsedOptions, Frequency } from '../types.js';
 import { YearInfo } from './yearinfo.js';
 import { MonthInfo } from './monthinfo.js';
-import { Time } from '../datetime';
+import { Time } from '../datetime.js';
 export type DaySet = [(number | null)[], number, number];
 export type GetDayset = () => DaySet;
 export default class Iterinfo {
