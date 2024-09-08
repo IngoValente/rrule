@@ -1,10 +1,10 @@
-import { notEmpty, repeat, range, isPresent } from '../helpers'
-import { ParsedOptions, Frequency } from '../types'
+import { notEmpty, repeat, range, isPresent } from '../helpers.js'
+import { ParsedOptions, Frequency } from '../types.js'
 import { YearInfo, rebuildYear } from './yearinfo.js'
 import { rebuildMonth, MonthInfo } from './monthinfo.js'
 import { easter } from './easter.js'
-import { Time } from '../datetime'
-import { datetime, sort, toOrdinal } from '../dateutil'
+import { Time } from '../datetime.js'
+import { datetime, sort, toOrdinal } from '../dateutil.js'
 
 export type DaySet = [(number | null)[], number, number]
 export type GetDayset = () => DaySet
